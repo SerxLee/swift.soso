@@ -19,9 +19,9 @@ class CoreDataStack {
         let urls = NSFileManager.defaultManager().URLsForDirectory(
                 NSSearchPathDirectory.DocumentDirectory,
                 inDomains: NSSearchPathDomainMask.UserDomainMask)
-        return urls[urls.count - 1]
+        return urls[urls.count - 1] as NSURL
     }()
-    
+
     //NSManagedObjectContext
     //Note: ConcurrencyType 的具体参数会在后面补充添加，暂时先使用 .MainQueueConcurrencyType
     //创建出来Context是完全没有意义的，直到设置了Context的PersistentStoreCoordinator

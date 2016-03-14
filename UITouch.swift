@@ -38,7 +38,7 @@ class MyView: UIView {
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
-        override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
         
         if touches.count == 2{
             self.pinchZoon = true
@@ -55,14 +55,12 @@ class MyView: UIView {
         }else{
             self.pinchZoon = false
         }
-        
-        
+           
 //        //实现单击事件
 //        let touch  = touches.first! as UITouch
 //        if touch.tapCount == 1{
 //            self.foundTap()         //单击事件
 //        }
-    }
 
     }
     
@@ -94,7 +92,7 @@ class MyView: UIView {
             self.pinchZoon = false
             self.previousDistance = 0.0
         }
-        
+
         // NSLog("touchesEnded - touch count = %i", touches.count)
         // for touch in touches{
         //     self.logTouchInfo(touch as UITouch)

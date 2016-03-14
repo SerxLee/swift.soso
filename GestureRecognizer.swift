@@ -7,7 +7,7 @@
 //
 
 /*
-    一共有七种手势识别器，在这里 Screen Edge Pan(屏幕边缘平移)没写
+    一共有七种手势识别器，在这里 Screen Edge Pan(屏幕边缘平移)没写    
 */
 
 import UIKit
