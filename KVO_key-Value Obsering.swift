@@ -13,7 +13,7 @@
 import UIKit
 
 class MyObjectObserve: NSObject{
-    dynamic var myDate = NSDate()
+    @dynamic var myDate = NSDate()
     
     func update(){
         myDate = NSDate()
